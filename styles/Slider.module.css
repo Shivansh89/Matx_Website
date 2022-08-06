@@ -1,0 +1,20 @@
+.sider_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  1rem 0.5rem ;
+    background: #031529;
+}
+.sider_right{
+    display: flex;
+    align-items: center;
+}
+.sider_logo{
+    color: #2676d2;
+    font-size: 35px;
+    margin-right: 0.25rem;
+}
+.sider_h2{
+    color: #fff;
+    margin-bottom: 0 !important;
+}

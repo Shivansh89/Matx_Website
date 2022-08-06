@@ -1,0 +1,28 @@
+.main_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.main_footer_button{
+    background-color:#ef9c41 ;
+    padding: 0.5rem;
+    border: 0 !important;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main_footer_button:hover{
+    background-color: #aa6822;
+}
+.main_footer_info{
+    margin-bottom: 0 !important;
+    color: #fff;
+}
+.main_footer_a{
+    color: black ;
+    cursor:pointer !important;
+}
+.main_footer_a:hover{
+    color: black ;
+    cursor:pointer !important;
+}

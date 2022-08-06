@@ -1,0 +1,226 @@
+/* ******Row1******* */
+
+.tab1row1{
+    display: flex;
+}
+
+.content_left{
+    width: 100%;
+}
+
+.body_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem !important;
+}
+.card_content{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between !important;
+    align-items: center;
+    font-size: 12px;
+  }
+.ant_card_bordered{
+    margin-left: 0 !important;
+}
+  
+
+  
+
+
+.heading_h3{
+    font-weight: 600;
+}
+
+.content_right{
+    width: 50%;
+}
+
+.right_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_card_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_content_margin{
+    margin-bottom: 1rem;
+}
+
+/* ***********Row2************ */
+
+.main_row2{
+    display: flex;
+    margin-top: 2rem;
+}
+.main_row2_left{
+    width: 50%;
+    background: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main_row2_left_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_row2_left_first_left{
+    width: 100%;
+}
+.main_row2_left_first_left_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.main_row2_left_first_right{
+    width: 100%;
+}
+.main_row2_left_second{
+    padding-top: 1rem;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+.main_row2_left_second_row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.main_row2_left_second_row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_row2_left_second_row2_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_row2_right{
+    width: 50%;
+    margin-left: 2rem;
+    background: #fff;
+}
+.table_col1{
+    display: flex;
+    align-items: center;
+}
+.table_col1_h4{
+    margin-bottom: 0 !important;
+    margin-left: 2rem;
+}
+.table_col1_p{
+    width: fit-content;
+    padding: 0rem 0.5rem;
+    box-shadow: 0px 2px 1px rgb(233, 233, 233);
+    border-radius: 50px;
+    margin-bottom: 0;
+    font-size:11px;
+}
+
+/*  ****** Row 3 ******** */
+.row3_main{
+    background: #fff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/*  ******* Tab2 ********** */
+
+.tab2_main{
+    margin: 1rem auto;
+    max-width: 55rem;
+    background: #fff;
+    padding: 3rem;
+    border: 1px solid rgba(231, 231, 231, 0.76);
+}
+.date{
+    color: rgb(134, 134, 134);
+}
+.title{
+    font-weight: 600;
+    font-size: large;
+}
+.not_display{
+    display: none;
+}
+
+
+@media screen and (max-width: 899px){
+    .body_cards{
+        flex-wrap: wrap;
+        margin-right: 2rem;
+    }
+    .main_div{
+        display: block !important;
+    }
+    .left_main_div{
+        width: 100% !important;
+    }
+    .left_main_div_row1{
+        justify-content: space-between;
+    }
+    .left_main_div_row2{
+        justify-content: space-between;
+    }
+    .mid_main_div{
+        width: auto !important;
+        margin-bottom: 2rem !important;
+    }
+    .right_main_div{
+        width: auto !important;
+    }
+    .ant_card_bordered_for_small{
+        margin-left: 0 !important;
+    }
+    .right_cards{
+        align-items: flex-start;
+    }
+    .ant_card_bordered_col_cards{
+        width: 100% !important;
+    }
+  }
+
+  @media screen and (max-width: 599px){
+  
+    .ant_card_bordered_for_extra_small{
+        margin-left: 0 !important;
+        margin-bottom: 2rem !important;
+        width: 100% !important;
+    }
+    .tab1row1{
+        display: block;
+        margin-right: 0 !important;
+    }
+    .ant_card_bordered{
+        margin-right: 0 !important;
+    }
+    .content_right{
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .main_row2_left_first{
+        display: block;
+    }
+    .main_row2{
+        display: block;
+        margin-top: 0;
+    }
+    .main_row2_right{
+        margin-left: 0 !important;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .main_row2_left{
+        width: 100%;
+    }
+  }

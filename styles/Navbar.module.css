@@ -1,0 +1,52 @@
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 1px 5px 10px rgb(216, 216, 216);
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1; */
+}
+.left_mainnav{
+    display: flex;
+    align-items: center;
+
+}
+.right_mainnav{
+    display: flex;
+    align-items: center;
+}
+.user_navbar{
+    display: flex !important;
+    align-items: center !important;
+    color: black !important;
+}
+.margin_right_navbar{
+    margin-right: 0.75rem;
+}
+.username_navbar{
+    margin: 0 !important;
+}
+.username_navbar_span{
+    font-weight: 600;
+}
+.navbar_menu_subitems{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar_menu_subitems_icon{
+    margin-right: 0.5rem;
+}
+@media screen and (max-width: 957px){
+    .forDisplay{
+      display: none;
+    }
+  }
+.pointer_effect{
+  cursor: pointer;
+  }
